@@ -17,11 +17,10 @@ I design and ship end-to-end production systems—taking early-stage R&D initiat
 
 ---
 
-### Selected Public Architecture Case Studies
+### Selected Public Architecture Case Study
 
-> Most of my production work—including real-time WebRTC/SIP voice platforms, high-throughput Python/FastAPI & Celery/ARQ pipelines, Rust LLM gateways, and AWS workloads—resides in private commercial and enterprise repositories. The repositories below are **selected public architecture case studies and sanitized reference implementations** from independent systems spanning two contrasting runtime environments:
+> Most of my production work—including real-time WebRTC/SIP voice platforms, high-throughput Python/FastAPI & Celery/ARQ pipelines, Rust LLM gateways, and AWS workloads—resides in private commercial and enterprise repositories. The repository below is a **selected public architecture case study and sanitized reference implementation** from an independent system:
 
 | Repository | Runtime & Architectural Focus |
 | :--- | :--- |
 | **[`cewjh/commerce-copilot-architecture`](https://github.com/cewjh/commerce-copilot-architecture)** | **Cloud / Edge Multi-Tenant SaaS:** C4 architecture, 10 ADRs, 3-layer AI eval pyramid, Zero Trust FinOps control plane, Web Crypto merchant portal, and zero-dependency testable reference modules (`references/`) — covering both the horizontal e-commerce platform and its domain-calibrated **AquaBot** vertical. |
-| **[`cewjh/palcore-architecture`](https://github.com/cewjh/palcore-architecture)** | **Local-First Desktop & Native IPC:** Multi-window Overwolf TypeScript companion architecture paired with a native C# binary GVAS save-file parser and privacy-preserving showcase boundaries. |
